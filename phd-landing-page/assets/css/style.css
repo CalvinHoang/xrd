@@ -1,0 +1,53 @@
+/* Custom CSS for single-page layout */
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 80vh; /* Use vh to make it take up viewport height */
+  padding: 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+#home {
+  background-color: #f8f9fa;
+}
+
+#research {
+  background-color: #e9ecef;
+}
+
+#projects {
+  background-color: #f8f9fa;
+}
+
+#cv {
+  background-color: #e9ecef;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+
+/* Basic Nav styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+body {
+  padding-top: 50px; /* Offset for fixed nav */
+}
